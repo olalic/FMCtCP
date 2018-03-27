@@ -16,5 +16,6 @@ In my slightly more complex program, I decided to incorporate not just an if-the
 My more complicated or do it differently program played I played with the acceleration. This program is a little more complicated as it takes into account the x- dimension. The X-axis is aligned horizontally from left to right. Left is negative and right is positive. In my code, you can see that I said if the acceleration is greater than 4 then show the red and yellow ring. If I programmed this correctly that should mean that when I tilt the Cpx to the right I will derive the red and yellow ring because these are positive values, On the other hand, if I tilt it to the left, I will derive the all blue ring because these should be negative values. In all three of my codes, I used successive ways of integrating the boolean function.
 
 [https://makecode.adafruit.com/#editor](https://makecode.adafruit.com/#editor)
+
 [View my Boolean Function Video](https://www.youtube.com/watch?v=G7t33g9OZaI)
 
