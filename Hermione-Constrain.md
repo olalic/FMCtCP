@@ -1,6 +1,3 @@
-
-
-
 # “Constrain” Block Exploration
 
 This is the block "Constrain" in the "Math" section in MakeCode. It gives you 3 spaces to add variables/numbers etc. The first space is where you put the variable you want to constrain, and the next 2 spaces are where you put in the numbers to indicate a range within which you want to constrain the first variable. For example, "constrain X between 1 and 10" means to constrain the variable X within the range between 1~10, anywhere outside the range will be invalid and will not be "X".
