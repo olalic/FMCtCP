@@ -7,7 +7,7 @@ Hi! I'm Lucy Faust! I'm excited to show you what I've learned in MakeCode this y
 
 
 
-Here is the transcript for my video which is embedded above:
+Here is the rough transcript for my video which is embedded above:
 Today I will be explaining a question posed by our class as a whole. The questions was “What is a boolean function and how can we use them in code?” To answer it, I will first turn back to what we discussed in class back in January. We discussed the idea that boolean functions are systems of statements where something is either true or false and follow under a big category of conditionals.
 
   
