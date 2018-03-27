@@ -7,3 +7,5 @@ Hermione Zhou <xzhou@bates.edu>
 Elizabeth Cullen <ecullen@bates.edu>
 
 Andrew Lowman <alowman@bates.edu>
+
+Katherine Towle <ktowle2@bates.edu>
