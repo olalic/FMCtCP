@@ -1,5 +1,7 @@
 # Chater One
 
+## Exploration of Variables
+
 One of the most basic principles of coding is defining and using variables. Variables are used in basically every coding project and although I felt I developed a decent understanding of variables in makecode, I wanted to expand my knowledge of variables in Python. So I started out as basic as I possibly could and went from there in my exploration of variables.
 
 I began my variable exploration in python by defining many variables. In my exploration, I used the example of ordering food at a restaurant. I defined a plethora of menu items and used the variables to put together the orders of two customers. In my hypothetical situation, I had two options each for a meat, a potato, and a vegetable. I gave the two options in each category different variable names and used the variable names to allow the customer to select their meal. My goal was to become comfortable defining variables in Python to eventually use them to create an order to send to the chefs.
