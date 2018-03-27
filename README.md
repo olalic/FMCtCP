@@ -15,3 +15,7 @@ Good practice for this project is to add yourself to the CONTRIBUTORS file as pa
 # Copyright and Contributor License Agreement
 
 We do not have a contributor license agreement. However, by making a pull request to the FMCtCP repository, we must tacitly assume that you are agreeing to the MIT License attached to this work, which provides broad permissions to the maintainer (jadudm) of this repository.
+
+# Live Site
+
+This text can be viewed as a [live website](https://jadudm.github.io/FMCtCP/).
