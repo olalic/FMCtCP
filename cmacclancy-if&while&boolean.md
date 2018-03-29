@@ -14,7 +14,7 @@ Below is a link to a walk-through tutorial/ demonstrations of the material descr
 *The video is slightly redundant when explaining make code- whereas in the video the If statement is demonstrated using the forever loop, it may have also been accomplished using the “on start” loop.*
 
 
-<iframe width="630" height="394" src="https://www.useloom.com/embed/0961ef11174f483ea0ece5ba4544b399" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+https://www.useloom.com/embed/0961ef11174f483ea0ece5ba4544b399
 
 ------
 
