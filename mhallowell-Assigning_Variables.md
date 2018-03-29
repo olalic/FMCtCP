@@ -1,5 +1,4 @@
-
-**Assigning Variables**
+## Assigning Variables
 
 This may seem like a basic concept, and for some it is, but I believe that understanding the basics is key to becoming more advanced.
 
