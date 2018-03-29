@@ -29,4 +29,4 @@ You can also use relational and logical operators in python, though in python th
 
 A video demonstrating these concepts can be found below:
 
-<iframe width="630" height="394" src="https://www.useloom.com/embed/2493e4b0afb04a07a55cc2e3d1f03bde" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+https://www.useloom.com/embed/2493e4b0afb04a07a55cc2e3d1f03bde
