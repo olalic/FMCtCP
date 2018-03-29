@@ -1,4 +1,4 @@
-## Assigning Variables
+##          Indentation and S p a c i n g
 This chapter focuses on making indentation and spacing clear using if-statements and while-loops.
 
 For the first program, I made the simplest code I could think of that involved indentation. Its only job was to turn the cpx red forever. In Python, there isn’t a direct “forever” loop, but a while-loop is equivalent. The indentation is clearer in Python, but both programs show that the performance function is inside of the loop. If “setAllPixelsTo(RED)” wasn’t indented, the program wouldn’t run. An error may occur saying “expected indentation,” which is required in order for the program to work.
