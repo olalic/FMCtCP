@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="from-makecode-to-python-while-loop-and-if-statement">From Makecode to Python: while loop and if statement</h1>
 <p><a href="https://youtu.be/x1b70lIpeT8">Screencast on while vs. if in Makecode</a><br>
 <a href="http://youtu.be/VGLsfKFcIFw?hd=1">Screencast on translation</a></p>
