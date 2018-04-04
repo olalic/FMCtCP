@@ -1,0 +1,12 @@
+# Using the Accelerometer in MakeCode
+Ok so for my code, there are two levels. One level is a basic light sensor, that was used in our dance performance. For this, the light sensor will detect when the light level is less than 5, meaning that once the sensor is subject to a specific amount of darkness, then the LEDs on the CPx will light up in white.
+
+## Second Piece of the Puzzle
+For the second part of my code, I have initialized the accelerometer to use the x axis of the CPx’s orientation. I have also set the limit for the accelerometer on the x axis to 1023, which means that for each movement along the x axis, the CPx will illuminate an LED in a different color along the rainbow spectrum up to the color that sits at the value of 1023. The last part of the code is the console log value, which basically will associate all values of the x axis to the sensor reading, which will allow the CPx to interpret the meanings of the accelerometer, thus translating the readings into the colors seen on the CPx. This means that with the light level, the above code will only initialize when the light sensors detect darkness.
+
+## Third Piece of the Puzzle
+For the third part of my code, I have replaced the general ‘while’ statement with an ‘if, else’ statement, which uses the light level specifications as the if statement, causing the accelerometer code to initiate when the light level is less than 5. If the light level is greater than 5, then the code states that the pixels on the CPx will illuminate red.
+
+ 
+
+View my video [here](https://www.useloom.com/share/bc21fd385a274de7afdef72308fc37f4).
