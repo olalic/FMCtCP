@@ -1,5 +1,6 @@
 * [CONTRIBUTORS](CONTRIBUTORS.html)
 * [Hermione-Constrain](Hermione-Constrain.html)
+* [Hermione-Map](Hermione-Map.html)
 * [JKrul-ExplorationOfVariables](JKrul-ExplorationOfVariables.html)
 * [JKrul-ExploringIfAndThenStatements](JKrul-ExploringIfAndThenStatements.html)
 * [LICENSE](LICENSE.html)
