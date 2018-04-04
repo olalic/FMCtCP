@@ -14,6 +14,22 @@ Python Code:
 		        If value > max
 		          Result = max
 		        Return result 
+
+This program uses “constrain” as the definition for a new variable to limit its value within a set of range. Firstly, I still use “light” as the initial variable set as input light level which varies as CPX measures light intensity of the environment. Then I set the second variable “limited light” with “constrain ‘light level’ between 100 and 200”. That means the variable new “limited light” only measures and displays light level within the boundary I set between 100 and 200.
+
+## **Program 2: Different light for different range**
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.adafruit.com/---codeembed#pub:_7Ju37EYEYiwi" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+
+Python Code:
+		      
+		      Def constrain (value, min, max)
+		        If value < min
+		          Result = min
+		        If value > max
+		          Result = max
+		        Return result 
             
 		      Light_level = getLux( )
 		      Limited_light = constrain (light level, 100, 200)
@@ -22,13 +38,6 @@ Python Code:
 			      setAllPixelsTo(GREEN)
 		      else:
 				    setAllPixelsTo(RED)
-
-This program uses “constrain” as the definition for a new variable to limit its value within a set of range. Firstly, I still use “light” as the initial variable set as input light level which varies as CPX measures light intensity of the environment. Then I set the second variable “limited light” with “constrain ‘light level’ between 100 and 200”. That means the variable new “limited light” only measures and displays light level within the boundary I set between 100 and 200.
-
-## **Program 2: Different light for different range**
-
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.adafruit.com/---codeembed#pub:_7Ju37EYEYiwi" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
-
 
 This program grows from program 1 to let CPX respond to the light level measured differently depends on whether if it lies within or outside the “constrain” I set for “limited light”. The “if” statement can be a little confusing since it sets a relationship between 2 interrelating variables “light” and “limited light”. However, it simply means that I ask the CPX to measure “light” which is the environment’s light intensity and compare it to the range of 100~200 that I set for “limited light”. If light level lies within that range, then all pixels will turn green, otherwise all pixels will turn blue.
 
