@@ -6,6 +6,22 @@ This is the block "Constrain" in the "Math" section in MakeCode. It gives you 3 
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.adafruit.com/---codeembed#pub:_ERAgAm8XrFb3" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
+Python Code:
+		      
+		      Def constrain (value, min, max)
+		        If value < min
+		          Result = min
+		        If value > max
+		          Result = max
+		        Return result 
+            
+		      Light_level = getLux( )
+		      Limited_light = constrain (light level, 100, 200)
+		  
+		      If Limited_light = Light_level:
+			      setAllPixelsTo(GREEN)
+		      else:
+				    setAllPixelsTo(RED)
 
 This program uses “constrain” as the definition for a new variable to limit its value within a set of range. Firstly, I still use “light” as the initial variable set as input light level which varies as CPX measures light intensity of the environment. Then I set the second variable “limited light” with “constrain ‘light level’ between 100 and 200”. That means the variable new “limited light” only measures and displays light level within the boundary I set between 100 and 200.
 
