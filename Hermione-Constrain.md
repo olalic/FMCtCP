@@ -8,7 +8,7 @@ This is the block "Constrain" in the "Math" section in MakeCode. It gives you 3 
 
 Python Code:
 		      
-		      Def constrain (value, min, max)
+		      def constrain (value, min, max)
 		        If value < min
 		          Result = min
 		        If value > max
@@ -24,20 +24,21 @@ This program uses “constrain” as the definition for a new variable to limit 
 
 Python Code:
 		      
-		      Def constrain (value, min, max)
-		        If value < min
-		          Result = min
-		        If value > max
-		          Result = max
-		        Return result 
-            
-		      Light_level = getLux( )
-		      Limited_light = constrain (light level, 100, 200)
-		  
-		      If Limited_light = Light_level:
-			      setAllPixelsTo(GREEN)
-		      else:
-				    setAllPixelsTo(RED)
+	def constrain (value, min, max)
+		if value < min
+			Result = min
+		if value > max
+			Result = max
+		Return result 
+		
+	Light_level = getLux( )
+	Limited_light = constrain (light level, 100, 200)
+
+	if Limited_light == Light_level:
+		setAllPixelsTo(GREEN)
+	else:
+		setAllPixelsTo(RED)
+
 
 This program grows from program 1 to let CPX respond to the light level measured differently depends on whether if it lies within or outside the “constrain” I set for “limited light”. The “if” statement can be a little confusing since it sets a relationship between 2 interrelating variables “light” and “limited light”. However, it simply means that I ask the CPX to measure “light” which is the environment’s light intensity and compare it to the range of 100~200 that I set for “limited light”. If light level lies within that range, then all pixels will turn green, otherwise all pixels will turn blue.
 
@@ -49,39 +50,31 @@ This program grows from program 1 to let CPX respond to the light level measured
 
 Python Code:
 		      
-	Def constrain (value, min, max)Def constrain (value, min, max)
-		If value < min
+	Siren        = 0
+	Powerup		= 1
+
+	def playSound (Sound = Siren)
+		if Sound == Siren 
+			cpx.play_file("siren.wav")
+		elif Sound == Powerup
+			cpx.play_file("powerup.wav")
+
+	def constrain (value, min, max)
+		if value < min
 			Result = min
-		If value > max
+		if value > max
 			Result = max
-		Return result  
+		Return result 
 	
-	Def playSound (Sound = Siren)
-		If Sound == Siren 
-			playSound (Siren)
-		eif Sound == Powerup
-			play Sound (Powerup) 
-		eif Sound == Powerdown
-			play Sound (Powerdown)
-		eif Sound == Jumpup
-			play Sound (Jumpup)
-		eif Sound == Jumpdown
-			play Sound (Jumpdown)
-		eif Sound == Bading
-			play Sound (Bading)
-		eif Sound == Wawawawaa
-			play Sound (Wawawawaa)
-		eif Sound == Magicwand
-			play Sound (Magicwand)
-	
-	Temperature = getTemperatureC( )
+	Temperature = getTemperatureC ( )
 	Freezer_Temperature = constrain (Temperature, -4, 4)
-	
-	If Freezer_Temperature = Temperature: 
+
+	if Freezer_Temperature == Temperature: 
 		setAllPixelsTo(GREEN)
 	else:
-		setAllPixelsTo(RED)	
+		setAllPixelsTo(RED)
 		playSound (Siren)
+
 
 
 This program is a similar one to program two but it is actually useful in daily life. I used it to measure another input which is temperature. I first set a variable “temperature” which varies with the temperature detected by the CPX. Then I set a range of -4~4 ºC for a new variable “freezer temperature” using “constrain” which corresponds to the range of temperature I want my freezer to be at. Using the same logic “if…then…” statement to see if the “temperature” lies within the range of “freezer temperature”. If the temperature lies within the range, all pixels turn green and signals normal function of freezing. If not, the sound “siren” will be played and all pixels will turn red to double-alert someone to check it out. I also added another block to stop all the sound if button A is clicked. That is to prevent the people fixing the freezer gets too irritated by the sound (which could be probably after 5 seconds) and smash the CPX.
