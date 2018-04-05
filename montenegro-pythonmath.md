@@ -20,6 +20,8 @@ variables produced the desired result.
 
 
 ## The Next Simplest Version of the Code 
+
+![text](https://102reasonstodcs.files.wordpress.com/2018/03/screen-shot-2018-04-04-at-10-24-50-pm.png)
 The second part of my code branches off of this idea of initialized
 variables, in that it takes those variables and simplifies them in 
 such a way that I can more easily create more complex equations 
@@ -35,6 +37,8 @@ divided by each other. Printing this variable will also result in the
 desired response. 
 
 ## The Most Complexest Version of the Code 
+
+![text](https://102reasonstodcs.files.wordpress.com/2018/03/screen-shot-2018-04-04-at-10-24-55-pm.png)
 The last part of my code takes the simpler code from earlier, and adds a 
 twist to it. For the last piece of code, I can translate each variable 
 into either an integer, or a float. An integer is a number that is not 
