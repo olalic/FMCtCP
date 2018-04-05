@@ -5,7 +5,7 @@
 
 ## Simplest Version of the Code 
 
-(fourth.jpg "Math 1")
+[alt text](fourth.jpg "Math 1")
 
 My code for this revolution around the sun is based around 
 simple mathematical functions that explore the basic math 
