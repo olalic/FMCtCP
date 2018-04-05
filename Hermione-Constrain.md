@@ -47,5 +47,41 @@ This program grows from program 1 to let CPX respond to the light level measured
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.adafruit.com/---codeembed#pub:_gYk1bm7pxh97" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
+Python Code:
+		      
+	Def constrain (value, min, max)Def constrain (value, min, max)
+		If value < min
+			Result = min
+		If value > max
+			Result = max
+		Return result  
+	
+	Def playSound (Sound = Siren)
+		If Sound == Siren 
+			playSound (Siren)
+		eif Sound == Powerup
+			play Sound (Powerup) 
+		eif Sound == Powerdown
+			play Sound (Powerdown)
+		eif Sound == Jumpup
+			play Sound (Jumpup)
+		eif Sound == Jumpdown
+			play Sound (Jumpdown)
+		eif Sound == Bading
+			play Sound (Bading)
+		eif Sound == Wawawawaa
+			play Sound (Wawawawaa)
+		eif Sound == Magicwand
+			play Sound (Magicwand)
+	
+	Temperature = getTemperatureC( )
+	Freezer_Temperature = constrain (Temperature, -4, 4)
+	
+	If Freezer_Temperature = Temperature: 
+		setAllPixelsTo(GREEN)
+	else:
+		setAllPixelsTo(RED)	
+		playSound (Siren)
+
 
 This program is a similar one to program two but it is actually useful in daily life. I used it to measure another input which is temperature. I first set a variable “temperature” which varies with the temperature detected by the CPX. Then I set a range of -4~4 ºC for a new variable “freezer temperature” using “constrain” which corresponds to the range of temperature I want my freezer to be at. Using the same logic “if…then…” statement to see if the “temperature” lies within the range of “freezer temperature”. If the temperature lies within the range, all pixels turn green and signals normal function of freezing. If not, the sound “siren” will be played and all pixels will turn red to double-alert someone to check it out. I also added another block to stop all the sound if button A is clicked. That is to prevent the people fixing the freezer gets too irritated by the sound (which could be probably after 5 seconds) and smash the CPX.
