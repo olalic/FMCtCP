@@ -5,7 +5,7 @@
 
 ## Simplest Version of the Code 
 
-![](fourth.jpg)
+![text](https://102reasonstodcs.files.wordpress.com/2018/03/fourth.png)
 
 My code for this revolution around the sun is based around 
 simple mathematical functions that explore the basic math 
