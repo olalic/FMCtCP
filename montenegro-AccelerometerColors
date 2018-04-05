@@ -7,7 +7,8 @@ the sensor is subject to a specific amount of darkness, then the LEDs on the CPx
 will light up in white. This is because the light sensor on the CPx can detect various
 levels of light, causing a reaction from the CPx for whatever it is programmed to do. 
 
-[Alt](first.jpg)
+![alt text](first.jpg "First Picture")
+
 
 ## Second Piece of the Puzzle
 For the second part of my code, I have initialized the accelerometer to use the x axis 
