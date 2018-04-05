@@ -5,7 +5,7 @@
 
 ## Simplest Version of the Code 
 
-![Image of math](https://octodex.github.com/images/fourth.jpg)
+![Image of math](https://github.com/images/fourth.jpg)
 
 My code for this revolution around the sun is based around 
 simple mathematical functions that explore the basic math 
