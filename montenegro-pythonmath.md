@@ -5,7 +5,7 @@
 
 ## Simplest Version of the Code 
 
-![alt text](/Users/sammontenegro/Desktop/final/fourth.jpg)
+[alt text]!(/Users/sammontenegro/Desktop/final/fourth.jpg)
 
 My code for this revolution around the sun is based around 
 simple mathematical functions that explore the basic math 
