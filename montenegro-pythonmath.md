@@ -46,4 +46,6 @@ be a float, even if one of the numbers in the problem is an integer.
 
 
 
-You can view my (oh so) comprehensive video on this subject [here](https://www.useloom.com/share/e2f34f10ab5848a4a6aba0ba487257c3).
+You can view my (oh so) comprehensive video on this subject [![Here](https://img.youtube.com/watch?v=Djs434CdfF4&feature=youtu.be/0.jpg)](https://youtu.be/Djs434CdfF4)
+
+
