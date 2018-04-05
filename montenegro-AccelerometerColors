@@ -7,7 +7,7 @@ the sensor is subject to a specific amount of darkness, then the LEDs on the CPx
 will light up in white. This is because the light sensor on the CPx can detect various
 levels of light, causing a reaction from the CPx for whatever it is programmed to do. 
 
-![alt text](first.jpg "First Picture")
+![alt text](https://102reasonstodcs.files.wordpress.com/2018/03/first.png)
 
 
 ## Second Piece of the Puzzle
@@ -21,7 +21,7 @@ to interpret the meanings of the accelerometer, thus translating the readings in
 colors seen on the CPx. This means that with the light level, the above code will only 
 initialize when the light sensors detect darkness.
 
-[Alt](second.jpg)
+![Alt](https://102reasonstodcs.files.wordpress.com/2018/03/second.png)
 
 ## Third Piece of the Puzzle
 For the third part of my code, I have replaced the general ‘while’ statement 
@@ -34,6 +34,6 @@ will work if the 'if' statement is not met; this will work for every piece of co
 does not meet the prior 'if' statement. So for the code, if the light level is greater 
 than 5, then the code states that the pixels on the CPx will illuminate red.
 
- [Alt](third.jpg)
+ ![Alt](https://102reasonstodcs.files.wordpress.com/2018/03/third.png)
 
-View my video [![Here](https://img.youtube.com/vi/watch?v=Goys7Cale_A/0.jpg)](https://www.youtube.com/watch?v=Goys7Cale_A).
+View my video [![Here](https://img.youtube.com/vi/Goys7Cale_A/0.jpg)](https://www.youtube.com/watch?v=Goys7Cale_A).
