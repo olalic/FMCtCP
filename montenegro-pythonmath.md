@@ -4,6 +4,9 @@
  My code this time around is certainly more simple. 
 
 ## Simplest Version of the Code 
+
+![alt text](fourth.jpg "Math 1")
+
 My code for this revolution around the sun is based around 
 simple mathematical functions that explore the basic math 
 code in Python. For my first program, I initialize five 
@@ -14,6 +17,7 @@ double asterisk means exponents, and the rest of the signs
 are relatively straightforward. I then printed each of the 
 variable to prove that the code runs smoothly, and each of the 
 variables produced the desired result. 
+
 
 ## The Next Simplest Version of the Code 
 The second part of my code branches off of this idea of initialized
