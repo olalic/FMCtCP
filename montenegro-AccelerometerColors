@@ -7,6 +7,8 @@ the sensor is subject to a specific amount of darkness, then the LEDs on the CPx
 will light up in white. This is because the light sensor on the CPx can detect various
 levels of light, causing a reaction from the CPx for whatever it is programmed to do. 
 
+[Alt](first.jpg)
+
 ## Second Piece of the Puzzle
 For the second part of my code, I have initialized the accelerometer to use the x axis 
 of the CPx’s orientation. I have also set the limit for the accelerometer on the x axis 
@@ -17,6 +19,8 @@ will associate all values of the x axis to the sensor reading, which will in tur
 to interpret the meanings of the accelerometer, thus translating the readings into the 
 colors seen on the CPx. This means that with the light level, the above code will only 
 initialize when the light sensors detect darkness.
+
+[Alt](second.jpg)
 
 ## Third Piece of the Puzzle
 For the third part of my code, I have replaced the general ‘while’ statement 
@@ -29,6 +33,6 @@ will work if the 'if' statement is not met; this will work for every piece of co
 does not meet the prior 'if' statement. So for the code, if the light level is greater 
 than 5, then the code states that the pixels on the CPx will illuminate red.
 
- 
+ [Alt](third.jpg)
 
 View my video [![Here](https://img.youtube.com/vi/watch?v=Goys7Cale_A/0.jpg)](https://www.youtube.com/watch?v=Goys7Cale_A).
