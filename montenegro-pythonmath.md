@@ -54,5 +54,5 @@ be a float, even if one of the numbers in the problem is an integer.
 
 
 
-You can view my (oh so) comprehensive video on this subject [![Here](ttps://img.youtube.com/vi/Djs434CdfF4/0.jpg)](https://youtu.be/Djs434CdfF4)
+You can view my (oh so) comprehensive video on this subject [![Here](https://img.youtube.com/vi/Djs434CdfF4/0.jpg)](https://youtu.be/Djs434CdfF4)
 
