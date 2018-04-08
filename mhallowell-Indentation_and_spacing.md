@@ -3,6 +3,8 @@ This chapter focuses on making indentation and spacing clear using if-statements
 
 For the first program, I made the simplest code I could think of that involved indentation. Its only job was to turn the cpx red forever. In Python, there isn’t a direct “forever” loop, but a while-loop is equivalent. The indentation is clearer in Python, but both programs show that the performance function is inside of the loop. If “setAllPixelsTo(RED)” wasn’t indented, the program wouldn’t run. An error may occur saying “expected indentation,” which is required in order for the program to work.
 
+https://makecode.com/_9DKixdLKf65V
+
 ![Screen Shot 2018-03-13 at 8.44.14 AM.png](https://lh6.googleusercontent.com/MRob3W86c6E-njEcqlsZXQuO2RXiGci4hgGy_5SJTUnoqhA_AoXUEYzEm81i-r5tNKp83VRTyLXdGbPafFJC_86JEK2uctmciR6jmjl0uRuum8tNTaVBHaZfA-3gKgHKcNTi_pSb)![Screen Shot 2018-03-13 at 8.58.49 AM.png](https://lh3.googleusercontent.com/zyFDYlvaxDATXkgdM2ywS7r0pxiHP2XzUrWWtmJOkSvu6-Ld_rlELEBtcjextnKTZN26L8fHSH0qmQe7slUFGaVrOa2tijF_4dH0N0zjzzdJJxLgLF7dYO9quBTicDXVV4jMkRT3)
 ____
 The next program I wrote was slightly more complex. It adds another layer or two of indentation to show the importance of it. When I take “setAllPixelsTo(GREEN)” and move it into the while-loop and outside of the if-statement, the program gets conflicted with multiple true statements happening at the same time. It then tries to perform both functions at once, flashing between the two. I explain this in greater detail in my video.
