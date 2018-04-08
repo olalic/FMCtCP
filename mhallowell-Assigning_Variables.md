@@ -6,7 +6,7 @@ Assigning variables allows you to name a value to call upon it later. This can d
 
 For my most basic code I just assigned “light” to lightlevel. The code itself doesn’t do anything, but it shows how to assign a variable.
 
-https://makecode.adafruit.com/---run?id=_9DKixdLKf65V
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.adafruit.com/---codeembed#pub:_9DKixdLKf65V" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
 ![Screen Shot 2018-03-20 at 7.54.30 AM](https://grainsofsaltmh.files.wordpress.com/2018/03/screen-shot-2018-03-20-at-7-54-30-am1.png?w=1100)
 ____
