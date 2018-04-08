@@ -25,6 +25,7 @@ ____
 ### Python 
 Variables allow for naming values in ways you want to remember them. Naming in python and Makecode happen in slightly different formats. Python assigns variables with just an equal sign.
 
+![Screen Shot 2018-03-20 at 8.55.07 AM](https://grainsofsaltmh.files.wordpress.com/2018/03/screen-shot-2018-03-20-at-8-55-07-am.png?w=269&h=308)
 ```
 ON = True
 OFF = False
@@ -38,8 +39,6 @@ RED = 0
 GREEN = 1
 BLUE = 2
 ```
-
-![Screen Shot 2018-03-20 at 8.55.07 AM](https://grainsofsaltmh.files.wordpress.com/2018/03/screen-shot-2018-03-20-at-8-55-07-am.png?w=269&h=308)
 ____
 ### Keywords 
 There are a few names that you can’t use because python has them reserved as *keywords*. Variables can also contain upper and lowercase letters, as well as numbers, although a variable cannot begin with a number. Underscores are fine too, many times they are used to signify spaces, because spaces can’t be used in assigning variable names.
