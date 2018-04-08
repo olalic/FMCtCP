@@ -26,9 +26,13 @@ ____
 Variables allow for naming values in ways you want to remember them. Naming in python and Makecode happen in slightly different formats. Python assigns variables with just an equal sign.
 
 `ON = True`
+
 `OFF = False`
+
 `BUTTONA = 0`
+
 `BUTTONB = 1`
+
 `BUTTONAB = 2`
 
 `X = 0`
