@@ -6,6 +6,8 @@ Assigning variables allows you to name a value to call upon it later. This can d
 
 For my most basic code I just assigned “light” to lightlevel. The code itself doesn’t do anything, but it shows how to assign a variable.
 
+<div style="position:relative;height:0;padding-bottom:100.0%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.adafruit.com/---run?id=_9DKixdLKf65V" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+
 ![Screen Shot 2018-03-20 at 7.54.30 AM](https://grainsofsaltmh.files.wordpress.com/2018/03/screen-shot-2018-03-20-at-7-54-30-am1.png?w=1100)
 ____
 The second code is showing how to call a variable. I assigned “NewLight” to any light level less than or equal to 100. I then use an if-statement and put the variable in place of where I would have a value. I used this to prove it would work with a variable, but I also switched back to a direct value to show that they work the same way. The code was directed to show red if the value or variable was true and off if not.
