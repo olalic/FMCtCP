@@ -10,6 +10,16 @@ ____
 The next program I wrote was slightly more complex. It adds another layer or two of indentation to show the importance of it. When I take “setAllPixelsTo(GREEN)” and move it into the while-loop and outside of the if-statement, the program gets conflicted with multiple true statements happening at the same time. It then tries to perform both functions at once, flashing between the two. I explain this in greater detail in my video.
 
 ![Screen Shot 2018-03-13 at 8.45.02 AM.png](https://lh4.googleusercontent.com/6WpicTm2hUQvmvo4LAfacT9LVqWg4BoNt9WfZOM6kZNW9PO11FosSjQksFRYtR0HD_gBudEoViUJRfHtvXcMYiXhCcx5dIVsoLFJSuW89ppsT9JwaVOVFVyVeYCjAtDRrTGvEdKW)
+
+	while True:
+
+		while getLux() > 0 and getLux() < 155:
+			if getLux() > 25 and getLux() < 45:
+				setAllPixelsTo(RED)
+			else:
+				setAllPixelsTo(GREEN)
+			setAllPixelsToRGB(0,0,0)
+
 ![Screen Shot 2018-03-13 at 9.14.56 AM copy](https://lh6.googleusercontent.com/BX4m0wx9t-50yG6X1EXih8FzW8B-9Q1cmHP9VuF3qalCi2NU7Ixtt-IVsTKvIb36p7gOU0B1923tjRG4YidSYdYxpMdgWGZZtHGAxSjtZ45W8fO3wLegfyXQ1ZWrk4-5AyNOKkB6)
 ____
 As is true in coding, there are multiple ways of creating the same code. The last program is another way of creating the second program I made. It involves less indentation, and it is therefore, in many ways, simpler. Everything is encapsulated in the if-statements. Additionally, I mentioned spaces towards the end of my video. Spaces are important in variable naming, because you cannot have spaces in variable naming. If things have a type of separation, then spaces do not matter. I could put any amount of spaces between a function and the arguments and Python would ignore the spaces and run the program properly.
