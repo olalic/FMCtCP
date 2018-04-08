@@ -25,27 +25,18 @@ ____
 ### Python 
 Variables allow for naming values in ways you want to remember them. Naming in python and Makecode happen in slightly different formats. Python assigns variables with just an equal sign.
 
-`ON = True`
-
-`OFF = False`
-
-`BUTTONA = 0`
-
-`BUTTONB = 1`
-
-`BUTTONAB = 2`
-
-`X = 0`
-
-`Y = 1`
-
-`Z = 2`
-
-`RED = 0`
-
-`GREEN = 1`
-
-`BLUE = 2`
+```
+ON = True
+OFF = False
+BUTTONA = 0
+BUTTONB = 1
+BUTTONAB = 2
+X = 0
+Y = 1
+Z = 2
+RED = 0
+GREEN = 1
+BLUE = 2
 
 ![Screen Shot 2018-03-20 at 8.55.07 AM](https://grainsofsaltmh.files.wordpress.com/2018/03/screen-shot-2018-03-20-at-8-55-07-am.png?w=269&h=308)
 ____
