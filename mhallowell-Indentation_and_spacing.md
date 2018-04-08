@@ -15,5 +15,15 @@ ____
 As is true in coding, there are multiple ways of creating the same code. The last program is another way of creating the second program I made. It involves less indentation, and it is therefore, in many ways, simpler. Everything is encapsulated in the if-statements. Additionally, I mentioned spaces towards the end of my video. Spaces are important in variable naming, because you cannot have spaces in variable naming. If things have a type of separation, then spaces do not matter. I could put any amount of spaces between a function and the arguments and Python would ignore the spaces and run the program properly.
 
 ![Screen Shot 2018-03-13 at 9.15.27 AM.png](https://lh6.googleusercontent.com/4CS0wF7tW5BuDLYURlc0L-KdZC_Eha-ddei5V-DgpNLv2UdQg5Cxm12NoIDWdVqnUfV5agZ2PMq3D2VnOGIJhVHSxuShVLQYjIpq6Hhosb_WeIYM7EMNqdjeUEiHxd9ot4l5INWp)
+
+while True:
+	if getLux() > 0 and getLux() < 155:
+		getLux() > 25 and getLux() < 45:
+	elif
+			setAllPixelsTo(RED)
+	else:
+			setAllPixelsTo(GREEN)
+		setAllPixelsToRGB(0,0,0)
+
 ![screen-shot-2018-03-13-at-9-14-56-am-copy3.png](https://lh3.googleusercontent.com/2wd4T2LAkGGsGvKme3emsHvyvxdpi24yKj7WXWJT5kgz-XIN5ze68_GFhFXrj0JfJjJfB4z3DrtdeBgEkoNBEzR3WAoE8Nvve-mbcImAVK4nZckuh-Ip-vU6FQfvvuouBd1aeoRQ)
 ____
