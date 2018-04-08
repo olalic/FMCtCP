@@ -43,3 +43,5 @@ As is true in coding, there are multiple ways of creating the same code. The las
 			
 			setAllPixelsToRGB(0,0,0)
 ____
+
+Video: https://www.useloom.com/share/231053342fd945e99f78ade51f6ac800
