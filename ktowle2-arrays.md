@@ -24,6 +24,7 @@ if accel_reading > 0:
 
 else:
 &nbsp;&nbsp;&nbsp;&nbsp;setAllPixelsToRGB (0, 20, 175)
+
 ![Screen Shot 2018-03-12 at 11.44.43 PM.png](https://lh6.googleusercontent.com/Pp8gMwcbqiyot3lWbEBj47fjGKJHDnr3QCnUHE6edokkt60qZaeG-XAh1gKyXzFhZlXgvbFP5eL7A832krhJrii0WlI54syxRfPAv64WI8IacREuGXRyebWqDglKVnC1vZq453oF)
 
 ![Screen Shot 2018-03-13 at 8.12.40 AM.png](https://lh4.googleusercontent.com/KADMVrPePcn1eVxZgXxJLnuEgVupmX4UhUkyVOLioXlrEUBdBrsvz7BV_MoWUTxw_BLnbNDbSyVF5m1n93ufVzNbhmqMpRIix_gXIw6IXNM5-kuEetQUYzXJZQcyQntOEeK_oamm)
