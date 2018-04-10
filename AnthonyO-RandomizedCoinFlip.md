@@ -1,5 +1,5 @@
 
-# THREE PROGRAMS, THREE PARAGRAPHS PART 2
+# Investigating Random Number Generators
 
 Posted on  [March 20, 2018](https://pillaroftime.wordpress.com/2018/03/20/three-programs-three-paragraphs-part-2/) by  [pillaroftime](https://pillaroftime.wordpress.com/author/pillaroftime/)
 
