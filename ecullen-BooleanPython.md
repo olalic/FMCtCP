@@ -14,7 +14,7 @@ While True:
     
     sound_Sensor=getSound
    
-   print(sound_Sensor)
+   	print(sound_Sensor)
     
     if sound_Sensor=155
         
@@ -78,7 +78,8 @@ While True:
    
    else
 	setAllPixelsTo(BLUE)
-	 ## Makecode
+	 
+## Makecode
  
 
     
