@@ -1,0 +1,18 @@
+**Simple code blinking blue lights :**  
+  
+  
+**1**. The first step to creating this program is to first scroll over to the “loops” tab on the sidebar and to find the “forever”block. Then you are going to find the “lights tab” and scan until you find the “set all pixels to” blue tab with a default red circle in it. Since this program will be one of blue lights and not red, you will click on the red circle and a spectrum of colors will appear. Choose the shade of blue that you wish to use for the program. Next go over to the side bar and click on loops. Next choose the “pause” block which has a default setting of 500 ms. We want it to blink rapidly so you would then click on the circle containing the number and then choose 200 ms instead of 500 ms. Click on the color box and click duplicate to place after the pause block. Great! We are all done with the simplest form of this code and will move on to the next step.  
+  
+  
+  
+**Still Simple code that is slightly less simple…**  
+  
+  
+Now we will use the previous program to create a more complex one of a blinking spectrum.  
+  
+**2.** You will begin with the first step except this time you will choose the lightest shade of blue to your eye and this will be the first color of the spectrum. It should look exactly like the first program at this point. Next you will duplicate the “set all pixels” to tab, by right clicking on it and clicking on “duplicate” which should be at the top. Next you will add another pause in between the previous segment and the new one. You will connect the blocks so that it aligns. Now you will click on the circle and choose the next shade of blue or another color of your choice. Repeat this step until you have at least five shades of blue or 5 different colors on the spectrum remembering to place a pause block (making sure to change the ms from 500 to 200) in between each color block.  
+  
+  
+  
+**Giving it a new meaning**  
+**3.** Now since this code is done, you will have to break it up and start all over again! Okay so maybe you don’t have to start all over but now we will break up the code so that half of it is outside of the forever loop. Scroll over to the side tab and click on loops. Within the loops tab scroll down to the “while do” block. Once you have this block out, place half of the code from before (by hovering the hand/mouse so that it picks up the code) into the “while do” loop. Next scroll over to the sidebar again and click on the “input” tab and scroll down to the clock that says when “X” is pressed… This should have a default setting of when “button A” is pressed and if this is unclear it is the 6th block down (there it is :0). Next place this block in the diamond shapes area of the “while do” block. Once you are done with this scroll over to the side bar click on “loops” again and choose two forever loops. Place the while do block inside the forever block. Voila! Now you should be able to press button A with the first half of the spectrum. Repeat these exact (yes exact) same steps for the second half of the spectrum but instead once you are done you will then click on the “button A” title and change it to “button B”. Don’t forget to place the while do block in the second forever block that has been patiently waiting! Hope you were able to follow these simple (or not so simple) codes! 
