@@ -28,7 +28,7 @@ while True:
   setAllPixelsTo(GREEN)
 ```
 
-**The second and thrid program translation.** I have combined the translation for the second and thrid program, since the difference between the two was meant to highlight the ability to use and not use make-code blocks. In this case I just want to demonstrate how to translate what the two programs do into python. Slight differences in outcome are due to adjustments that needed to be made because the CPX doesn't have enough storage. 
+**The second and thrid program translation.** I have combined the translation for the second and thrid program, since the difference between the two was meant to highlight the ability to use and not use make-code blocks. In this case I just want to demonstrate how to translate what the two programs into python. Slight differences in outcome are due to adjustments that needed to be made because the CPX doesn't have enough storage. 
 
 ```
 #from dcs import *
