@@ -2,8 +2,6 @@
 
 The goal of this exercise is to further understand the structure of programs, functions, and libraries. When thinking of make-code through a python lens, I view many of the make-code blocks to be functions that have been defined by the developers. Essentially that is what I understand libraries to be. In this post I developed three programs on make-code; a very simple one, a slightly more complex one, and finally a third program that does what the second one did, but uses a function I defined instead of one of the blocks that make-code has already created for us. This short chapter has the following learning goals: (1) in programming there are always multiple ways to get the same outcome, (2) you can use libraries that already exist if they include functions that do what you want them to do, or you may have to define you own function, (3) learn how to define a function in Python, (4) get an understanding of how make-code translates to Python.  
 
-<iframe width="630" height="394" src="https://www.useloom.com/embed/584f5cd91f7446f0982205de1d86ae24" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 **The first program:**  The sole purpose of this program is to set all pixels to green. Though it is extremely simple, there is more happening ‘behind the blocks.’ For instance, make-code knows what the “set all pixels to” block wants the CPX to set its all of its pixes to a given color. This is because the function was previously defined and is called whenever I use the block. Similarly the block that is simply the color green, actually describes an RGB code: (0,255,0).
 
 ![Screen Shot 2018-03-12 at 7.40.35 PM](https://dcs102dot.files.wordpress.com/2018/03/screen-shot-2018-03-12-at-7-40-35-pm.png?w=248&h=279)
@@ -16,9 +14,9 @@ The goal of this exercise is to further understand the structure of programs, fu
 
 ![Screen Shot 2018-03-12 at 7.41.23 PM](https://dcs102dot.files.wordpress.com/2018/03/screen-shot-2018-03-12-at-7-41-23-pm.png?w=425&h=299)
 
-**Translating the programs into Python***
+**Translating the programs into Python**
 
-The first program translation
+**The first program translation**
 ```
 from dcs import *
 
@@ -30,7 +28,7 @@ while True:
   setAllPixelsTo(GREEN)
 ```
 
-The second and thrid program translation. I have combined the translation for the second and thrid program, since the difference between the two was meant to highlight the ability to use and not use make-code blocks. In this case I just want to demonstrate how to translate what the two programs do into python. Slight differences in outcome are due to adjustments that needed to be made because the CPX doesn't have enough storage. 
+**The second and thrid program translation.** I have combined the translation for the second and thrid program, since the difference between the two was meant to highlight the ability to use and not use make-code blocks. In this case I just want to demonstrate how to translate what the two programs do into python. Slight differences in outcome are due to adjustments that needed to be made because the CPX doesn't have enough storage. 
 
 ```
 #from dcs import *
