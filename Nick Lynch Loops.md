@@ -49,11 +49,11 @@ while True:
 ~~~
 This while true loop runs until time itself runs out. So the next step would be to if at all during this time, was a button pressed?
 ~~~ 
-if(isPressed(BUTTONA):
+if(isPressed(BUTTONA)):
 ~~~
 Next, we want to run through a for loop that changes each pixel to green. 
 ~~~
-for(i in range(0,10):
+for(i in range(0,10)):
 ~~~
 This for loop causes the program to iterate through 10 times, from 0 to 9.  Now that we have a number that moves through 0 to 9, we can use that as our pixel index. 
 ~~~
@@ -68,13 +68,13 @@ The pause simply pauses the program for half a second.
 ## Advanced Program
 The next program I built completely builds off the last program. Using the code from part one, we now decide to add under the while true loop. I wanted to have the CPX react to button B as well.
 ~~~
-if(isPressed(BUTTONB):
+if(isPressed(BUTTONB)):
 ~~~
 Now, below this I start with the same for loop as earlier. However, I want to run a loop that runs backwards. Instead of starting at zero, I want to start at 9. I looked into the literature and found that the range function allows reverse loops using the following syntax. 
 ~~~
 for(i in range(9,0,-1)):
-            setPixedRGB(i,0,0,255)
-            pause(500)
+    setPixedRGB(i,0,0,255)
+    pause(500)
 ~~~
 
 This concludes the second part of the program. Both loops will react to a button press, but one will go forward with a loop and turn green. The other will go backwards turning blue. 
@@ -83,7 +83,7 @@ This concludes the second part of the program. Both loops will react to a button
 The different method I used on makecode still can work in python. Instead of changing the for loop, I changed the index.
 ~~~
 for(i in range(0,10)):
-            setPixedRGB(10-i,0,0,255)
-            pause(500)
+    setPixedRGB(10-i,0,0,255)
+    pause(500)
 ~~~
 This does the exact same thing as the above code, but it does it in a very different way.
