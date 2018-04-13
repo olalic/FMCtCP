@@ -19,7 +19,7 @@ Posted on  [March 20, 2018](https://pillaroftime.wordpress.com/2018/03/20/three-
 **Example Video:** 
 <iframe width="630" height="355" src="https://www.useloom.com/embed/2e3316e2205e4b35bde7324990575164" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-
+---
 **Program 1 Coded in Python:** This is how the first program looks coded in Python.
 
 ![2018-04-13](https://pillaroftime.files.wordpress.com/2018/03/2018-04-13-e1523640113510.png)
