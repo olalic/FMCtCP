@@ -35,5 +35,5 @@ Just as our MakeCode program started with an “on start” command where variab
  
  **![](https://lh6.googleusercontent.com/-BZdVbo_l3fYTONrPVmcZeNyplwvkr04pM3pZWw-L09d3Ebc7mYhnS_m7_v0Y3EpyAyOagecT_AE7aAl1oFf1S3ZWeG-VO2LRq16zfcqpw5w-EbONs80HJdjk23saKQCV1WB7lYY)**
  
- [Click here for my video tutorial](https://www.useloom.com/share/cad7bdd123b2466a9f80573c251c60a4)
+ [Click here for my video tutorial](https://www.youtube.com/watch?v=qdP_8xX9Y_8&feature=youtu.be)
 
