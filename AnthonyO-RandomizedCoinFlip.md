@@ -26,3 +26,5 @@ Posted on  [March 20, 2018](https://pillaroftime.wordpress.com/2018/03/20/three-
 
 **Program 2 Coded in Python:** This is how the second program looks coded in Python.
 
+![2018-04-13 (1)](https://pillaroftime.files.wordpress.com/2018/03/2018-04-13-1-e1523640251289.png)
+
