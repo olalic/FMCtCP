@@ -11,10 +11,15 @@ sound_Sensor=0
 #Forever
 
 While True:
+    
     sound_Sensor=getSound
-    print(sound_Sensor)
+   
+   print(sound_Sensor)
+    
     if sound_Sensor=155
-        setAllPixelsTo(RED)
+        
+	setAllPixelsTo(RED)
+
 ## Makecode
 
 
@@ -33,12 +38,19 @@ sound_Sensor=0
 #Forever
 
 While True:
-    sound_Sensor=getSound
-    print(accel_x_reading)
+   
+   sound_Sensor=getSound
+   
+   print(accel_x_reading)
+    
     if sound_Sensor=155
-        setAllPixelsTo(RED)
-    else
-        setAllPixelsTo(BLUE)
+        
+	setAllPixelsTo(RED)
+   
+   else
+       
+       setAllPixelsTo(BLUE)
+  
   ## Makecode 
   
 # More Complex or Different Program
@@ -55,11 +67,16 @@ button_A=1
 #Forever
 
 While True:
+    
     button_A=getbutton
-    print(buttonA)
+   
+   print(buttonA)
+    
     if button_A=1
-        setAllPixelsTo(RED)
-    else
+       
+       setAllPixelsTo(RED)
+   
+   else
 	setAllPixelsTo(BLUE)
 	 ## Makecode
  
